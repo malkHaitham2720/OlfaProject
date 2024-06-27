@@ -1,0 +1,197 @@
+/* start level */
+body {
+  background-color: rgb(241, 234, 226);
+  direction: rtl;
+
+}
+
+.level {
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
+.level .level-content {
+  margin-top: 33px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+
+}
+
+
+.level .level-content .image {
+  position: relative;
+
+
+}
+p{
+  margin-bottom: 150px;
+}
+.level .level-content .image img {
+  max-width: 100%;
+
+}
+
+.level .level-content .image img:hover {
+  transform: scale(1.2, 1.2) rotate(3deg);
+
+}
+
+.level .level-content .text {
+  flex-basis: calc(100% - 500px);
+}
+
+/* ----------------------- */
+.container .describtionOfLevel {
+  font-weight: bold;
+  line-height: 2;
+  font-size: 20px;
+  margin-bottom: 3px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+
+}
+
+.container .describtionOfLevel:hover {
+  font-size: 23px;
+  color: black;
+}
+
+.container .describtionOfLevel {
+  line-height: 2;
+  color: #464343;
+  margin-bottom: 20;
+}
+
+.steps_content {
+  display: none;
+  font-size: 30px;
+}
+
+h1 {
+
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  font-size: 130px;
+}
+
+h2 {
+  font-size: 45px;
+  width: calc(100% - 100px);
+  margin-right: 0px;
+}
+
+
+.main-title_q {
+  margin: 0 auto 80px;
+  border: 0px solid rgb(167, 114, 125);
+  border-radius:50px;
+  font-size: 30px;
+  padding:0 0 0 0;
+  width:200px;
+  height: 150px;
+  position: relative;
+  z-index: 1;
+  color: rgb(167, 114, 125);
+  box-shadow: 0 0 40px #757171ad;
+  display: block;
+  margin: 10 auto;
+  margin-right: 0%;
+  margin-top: 10;
+  transition: var(--main-transition);
+}
+
+.main-title_q:hover {
+  color: rgb(234, 204, 210);
+  box-shadow: 0 0 15px rgb(35, 1, 1);
+  background-color:rgb(167, 114, 125); ;
+
+}
+#olpha_logo {
+  width: 100px;
+  height: auto;
+  float: left;
+}
+#quraan_logo{
+  width: 280px;
+  margin-right: 100px;
+  margin-left: 0px;
+}
+#title_div{
+  display: inline-block;
+  margin: 10px;
+  padding: 0px;
+  text-align: left;
+  display: flex;
+  justify-content: center; /* align child elements horizontally */
+  align-items: center; /* align child elements vertically */
+  height: 100vh;
+}
+#step_1{
+  border-radius: 50px;
+  margin: auto;
+}
+#home{
+  border-radius: 50px;
+  margin: auto;
+}
+
+.home_q{
+  margin-right:1230px;
+  border: 2px solid rgb(86, 124, 121);
+  border-radius:50px;
+  font-size: 20px;
+  padding:0 0 0 0;
+  width:100px;
+  height: 60px;
+  position: absolute;
+  z-index: 1;
+  color: rgb(216, 193, 198);
+  /* box-shadow: 0 0 40px #9b8e8ead; */
+  display: block;
+  transition: var(--main-transition);
+  background-color:rgb(167, 114, 125); 
+}
+.home_q:hover {
+  color: rgb(172, 111, 123);
+  box-shadow: 0 0 15px rgb(35, 1, 1);
+  background-color:rgb(237, 215, 219); ;
+
+}
+
+.home_b{
+  margin-left:850px;
+  border: 2px solid rgb(86, 124, 121);
+  border-radius:50px;
+  font-size: 20px;
+  padding:0 0 0 0;
+  width:100px;
+  height: 60px;
+  position: relative;
+  z-index: 1;
+  color: rgb(216, 193, 198);
+  /* box-shadow: 0 0 40px #9b8e8ead; */
+  display: block;
+  transition: var(--main-transition);
+  background-color:rgb(167, 114, 125); 
+}
+.home_b:hover {
+  color: rgb(172, 111, 123);
+  box-shadow: 0 0 15px rgb(35, 1, 1);
+  background-color:rgb(237, 215, 219); ;
+
+}
+#home_link,#home_link2{
+  color: rgb(216, 193, 198);
+  font-size: 25px;
+  text-decoration: none;
+}
+#home_link:hover,#home_link2:hover{
+  color: rgb(141, 80, 93);
+  font-size: 30px;
+  text-decoration: none;
+}
